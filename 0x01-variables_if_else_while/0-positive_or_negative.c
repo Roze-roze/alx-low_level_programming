@@ -6,6 +6,7 @@
  * main - Entry point
  *
  * Return: Always success
+ * betty style doc for function main goes there
  */
 int main(void)
 {
