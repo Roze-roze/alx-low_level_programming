@@ -1,16 +1,17 @@
 #include <stdio.h>
-/**
- * main - prints alphabet
- *
- * Return: 0
+/*
+ * main: prints alphabet in small letters
+ * @character - single character in alphabet
+ * return: 0 as success
  */
 int main(void)
 {
-	char i;
+	char letter;
 
-	for (i=a; i<=z; i++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		putchar(i);
+		putchar(letter);
 	}
+	putchar('\n');
 	return (0);
 }
